@@ -1,0 +1,224 @@
+body{
+    
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    
+
+ul li{
+    list-style-type: none;
+    color: rgb(139, 139, 139);
+}
+
+.About-us{
+    color: rgb(44, 173, 152);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 80px;
+}
+
+h1{
+    display: flex;
+    color: rgb(44, 173, 152);
+    font-weight: 100;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+ ul{
+    display: flex;
+    gap: 30px;
+}
+
+.docplanner-logo{
+    padding-right: 300px;
+}
+
+.small{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.sections{
+    display: flex;
+    color: rgb(139, 139, 139);
+    font-size: 1.0em;
+    gap: 20px;
+    padding-bottom: 80px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.divisions{
+    display: flex;
+    gap: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+ 
+.leader{
+    display: flex;
+    flex-direction: grid;
+    grid-template-rows: 2;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 30px 30px;
+    color: white;
+}
+.patient{
+    border-radius: 10px;
+    background-color: rgb(0, 204, 177);
+    
+
+}
+
+.doctor{
+    border-radius: 10px;
+    background-color: rgb(61, 131, 223);
+    
+
+}
+
+.clinic{
+    border-radius: 10px;
+    background-color: rgb(27, 39, 52) ;
+    
+
+}
+#select1{
+    margin-top: 55px;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+
+#select2{
+    margin-top: 50px;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+#select3{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+    
+.select4{
+    padding-top: 20px;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+    
+.logos{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.image{
+    height: 20px;
+    width: 50px;
+}
+
+.global{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(0, 204, 177);
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+.bigdiv{display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-top: 30px;
+        background-color: #d0faf4;
+        margin: 0;
+}
+
+.leader{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+
+.biggest{
+    color: aqua;
+    padding-bottom: 50px;
+}
+
+.doc-logo{
+    padding-top: 50px;
+}
+
+.subdiv h3{
+    color: rgb(0, 204, 177);
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+
+.subdiv{
+    display: flex;
+    justify-content: left;
+    padding-right: 110px;
+    padding-left: 150px;
+
+}
+
+.goat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+     text-align: center
+
+}
+
+#cat {
+    color: #74747;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 140px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.sound{
+   padding: 10rem;
+}
